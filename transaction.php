@@ -166,7 +166,7 @@
                                             <tr>
                                                 <td>2023-05-12 10:30:15</td>
                                                 <td>123456</td>
-                                                <td>Online</td>
+                                                <td>Online tes</td>
                                                 <td>2323 6372 1234</td>
                                                 <td>Payment</td>
                                                 <td>$50.00</td>
