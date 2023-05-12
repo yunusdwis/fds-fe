@@ -31,7 +31,7 @@
 						<li><a href="content.html">Action</a></li>
 						<li><a href="menu.html">Available Fields</a></li>	
 						<li><a href="email-template.html">Rules</a></li>		
-						<li><a href="blog.html">Black List</a></li>			
+						<li><a href="fds_blocked.php">Black List</a></li>			
 					</ul>
 					</li>
 					<li><a class=" " href="javascript:void(0);" aria-expanded="false">
