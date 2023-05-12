@@ -139,13 +139,62 @@
                                         <p class="btn btn-block btn-primary">Export...</p>
                                     </div>
                                 </div>
+
+                                <div class="table-responsive">
+                                    <table class="table table-responsive-md">
+                                        <thead>
+                                            <tr>
+                                                <th>Datetime</th>
+                                                <th>STAN</th>
+                                                <th>Channel</th>
+                                                <th>Card / Account No</th>
+                                                <th>Transaction Type</th>
+                                                <th>Amount</th>
+                                                <th>Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>2023-05-12 10:30:15</td>
+                                                <td>123456</td>
+                                                <td>Online</td>
+                                                <td>2323 6372 1234</td>
+                                                <td>Payment</td>
+                                                <td>$50.00</td>
+                                                <td>Completed</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2023-05-12 10:30:15</td>
+                                                <td>123456</td>
+                                                <td>Online</td>
+                                                <td>2323 6372 1234</td>
+                                                <td>Payment</td>
+                                                <td>$50.00</td>
+                                                <td>Completed</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2023-05-12 10:30:15</td>
+                                                <td>123456</td>
+                                                <td>Online</td>
+                                                <td>2323 6372 1234</td>
+                                                <td>Payment</td>
+                                                <td>$50.00</td>
+                                                <td>Completed</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
+
+
+
                     </div>
                 </div>
             </div>
-
         </div>
+
+    </div>
     </div>
     <!--**********************************
             Content body end
