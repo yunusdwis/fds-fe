@@ -18,7 +18,7 @@
 			</li>
 			<li><a class=" " href="javascript:void(0);" aria-expanded="false">
 					<i class="material-icons">paid</i>
-					<span class="nav-text">Transaksi</span>
+					<span class="nav-text">Transaction</span>
 				</a>
 			</li>
 			<li><a class="has-arrow " href="javascript:void(0);" aria-expanded="false">
