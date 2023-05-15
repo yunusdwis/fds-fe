@@ -11,7 +11,7 @@
 		</div>
 		<ul class="metismenu" id="menu">
 			<li>
-				<a href="/fds-createch" aria-expanded="false">
+				<a href="index.php" aria-expanded="false">
 					<i class="material-icons-outlined">dashboard</i>
 					<span class="nav-text">Dashboard</span>
 				</a>

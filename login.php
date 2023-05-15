@@ -46,7 +46,7 @@
 
 						<div class="col-xl-6 mx-auto col-md-6">
 							<div class="sign-in-your py-4 px-2">
-								<form action="https://finlab.dexignzone.com/xhtml/index.html">
+								<form action="index.php">
 									<div class="mb-3">
 										<input type="text" class="form-control" value="Username">
 									</div>
