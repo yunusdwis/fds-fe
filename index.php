@@ -16,7 +16,7 @@
     <meta name="format-detection" content="telephone=no">
 
     <!-- PAGE TITLE HERE -->
-    <title>FinLab Crypto Trading UI Admin</title>
+    <title>FinLab Crypto Trading UI Adminn</title>
 
     <!-- FAVICONS ICON -->
 
