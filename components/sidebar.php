@@ -31,8 +31,8 @@
 				</a>
 				<ul aria-expanded="false">
 					<li><a href="fds_actions.php">Action</a></li>
-					<li><a href="menu.html">Available Fields</a></li>
-					<li><a href="email-template.html">Rules</a></li>
+					<li><a href="fds_available_fields.php">Available Fields</a></li>
+					<li><a href="fds_rules.php">Rules</a></li>
 					<li><a href="fds_blocked.php">Black List</a></li>
 				</ul>
 			</li>
@@ -43,7 +43,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="/" aria-expanded="false">
+				<a href="change-password.php" aria-expanded="false">
 					<i class="material-icons"> key </i>
 					<span class="nav-text">Change Password</span>
 				</a>
@@ -55,7 +55,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="/" aria-expanded="false">
+				<a href="audit_trail.php" aria-expanded="false">
 					<i class="material-icons"> search </i>
 					<span class="nav-text">Audit Trail</span>
 				</a>
