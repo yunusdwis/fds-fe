@@ -31,8 +31,8 @@
 				</a>
 				<ul aria-expanded="false">
 					<li><a href="fds_actions.php">Action</a></li>
-					<li><a href="menu.html">Available Fields</a></li>
-					<li><a href="email-template.html">Rules</a></li>
+					<li><a href="fds_available_fields.php">Available Fields</a></li>
+					<li><a href="fds_rules.php">Rules</a></li>
 					<li><a href="fds_blocked.php">Black List</a></li>
 				</ul>
 			</li>

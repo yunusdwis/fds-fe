@@ -132,10 +132,10 @@
                                 </div>
 
                                 <div class="row">
-                                    <div class="col-lg-3">
+                                    <div class="col-lg-2">
                                         <p class="btn btn-block btn-primary">Refresh</p>
                                     </div>
-                                    <div class="col-lg-3">
+                                    <div class="col-lg-2">
                                         <p class="btn btn-block btn-primary">Export...</p>
                                     </div>
                                 </div>
@@ -251,7 +251,6 @@
     <script src="js/custom.min.js"></script>
     <script src="js/dlabnav-init.js"></script>
     <script src="js/demo.js"></script>
-    <script src="js/styleSwitcher.js"></script>
 </body>
 
 

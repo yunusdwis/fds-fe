@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from finlab.dexignzone.com/xhtml/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 May 2023 06:37:24 GMT -->
+<!-- Mirrored from finlab.dexignzone.com/xhtml/ticketing.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 May 2023 06:38:34 GMT -->
 
 <head>
+
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="author" content="">
@@ -14,27 +15,33 @@
 	<meta property="og:description" content="FinLab : Crypto Trading UI Admin  Bootstrap 5 Template">
 	<meta property="og:image" content="../../finlab.dexignlab.com/xhtml/social-image.png">
 	<meta name="format-detection" content="telephone=no">
+
 	<!-- PAGE TITLE HERE -->
 	<title>FinLab Crypto Trading UI Admin</title>
+
 	<!-- FAVICONS ICON -->
+
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
 	<link href="vendor/wow-master/css/libs/animate.css" rel="stylesheet">
 	<link href="vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="vendor/bootstrap-select-country/css/bootstrap-select-country.min.css">
 	<link rel="stylesheet" href="vendor/jquery-nice-select/css/nice-select.css">
-	<link href="vendor/datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
+
 	<!--swiper-slider-->
 	<link rel="stylesheet" href="vendor/swiper/css/swiper-bundle.min.css">
+
 	<!-- Style css -->
 	<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+	<!-- Style css -->
 	<link href="css/style.css" rel="stylesheet">
 
 </head>
 
 <body>
+
 	<!--*******************
         Preloader start
     ********************-->
+
 	<div id="preloader">
 		<div class="loader"></div>
 	</div>
@@ -45,7 +52,7 @@
 	<!--**********************************
         Main wrapper start
     ***********************************-->
-	<div id="main-wrapper" class="wallet-open active">
+	<div id="main-wrapper" class=" show">
 		<?php include 'components/logo.php'; ?>
 		<?php include 'components/header.php'; ?>
 		<?php include 'components/sidebar.php'; ?>
@@ -61,103 +68,110 @@
 					<div class="col-xl-12">
 						<div class="row">
 							<div class="col-xl-12">
-								<div class="page-titles style1">
+								<div class="page-titles">
 									<div class="d-flex align-items-center">
 										<h2 class="heading">Dashboard</h2>
+										<!-- <p class="text-warning ms-2">Welcome Back Yatin Sharma !</p> -->
 									</div>
+
 								</div>
 							</div>
 						</div>
-						<div class="swiper mySwiper-counter position-relative overflow-hidden">
-							<div class="swiper-wrapper ">
-								<!--swiper-slide-->
-								<div class="swiper-slide">
-									<div class="card ticket blue">
-										<div class="back-image">
-											<svg width="102" height="100" viewBox="0 0 102 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g opacity="0.3">
-													<path d="M89.3573 123.082C59.4605 115.689 41.2417 85.3438 48.6706 55.2997C56.0995 25.2556 86.3609 6.89766 116.258 14.2901C146.155 21.6826 164.373 52.028 156.944 82.0721C149.516 112.116 119.254 130.474 89.3573 123.082Z" stroke="white" />
-													<path d="M91.021 116.351C64.8418 109.878 48.891 83.2911 55.4008 56.964C61.9106 30.6368 88.4137 14.5476 114.593 21.0208C140.772 27.4941 156.723 54.0807 150.213 80.4078C143.703 106.735 117.2 122.824 91.021 116.351Z" stroke="white" />
-													<path d="M82.6265 121.417C56.4473 114.944 40.4965 88.3576 47.0063 62.0304C53.5161 35.7033 80.0191 19.6141 106.198 26.0873C132.378 32.5605 148.328 59.1471 141.819 85.4743C135.309 111.801 108.806 127.891 82.6265 121.417Z" stroke="white" />
-													<path d="M73.9723 126.42C47.9385 119.983 32.1005 93.4265 38.6109 67.0969C45.1213 40.7672 71.5104 24.6525 97.5442 31.0897C123.578 37.527 139.416 64.0831 132.906 90.4127C126.395 116.742 100.006 132.857 73.9723 126.42Z" stroke="white" />
-													<path d="M65.3189 131.422C39.1396 124.949 23.1888 98.3625 29.6986 72.0353C36.2084 45.7082 62.7115 29.6189 88.8908 36.0922C115.07 42.5654 131.021 69.152 124.511 95.4792C118.001 121.806 91.4981 137.896 65.3189 131.422Z" stroke="white" />
-													<path d="M56.6647 136.425C30.6309 129.987 14.7929 103.431 21.3033 77.1017C27.8137 50.7721 54.2027 34.6573 80.2365 41.0946C106.27 47.5318 122.108 74.0879 115.598 100.418C109.088 126.747 82.6985 142.862 56.6647 136.425Z" stroke="white" />
-													<circle cx="59.7333" cy="94.0209" r="48.8339" transform="rotate(103.889 59.7333 94.0209)" stroke="white" />
-												</g>
-											</svg>
-										</div>
-										<div class="card-body">
-											<div class="chart-num mb-3">
-												<h2>75</h2>
+						<div class="row wow fadeInUp main-card" data-wow-delay="0.7s">
+							<!--column-->
+							<div class="col-xxl-12 col-xl-9">
+								<div class="swiper ticketing-Swiper position-relative overflow-hidden">
+									<div class="swiper-wrapper">
+										<!--swiper-slide-->
+										<div class="swiper-slide">
+											<div class="card ticket blue">
+												<div class="back-image">
+													<svg width="102" height="100" viewBox="0 0 102 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g opacity="0.3">
+															<path d="M89.3573 123.082C59.4605 115.689 41.2417 85.3438 48.6706 55.2997C56.0995 25.2556 86.3609 6.89766 116.258 14.2901C146.155 21.6826 164.373 52.028 156.944 82.0721C149.516 112.116 119.254 130.474 89.3573 123.082Z" stroke="white" />
+															<path d="M91.021 116.351C64.8418 109.878 48.891 83.2911 55.4008 56.964C61.9106 30.6368 88.4137 14.5476 114.593 21.0208C140.772 27.4941 156.723 54.0807 150.213 80.4078C143.703 106.735 117.2 122.824 91.021 116.351Z" stroke="white" />
+															<path d="M82.6265 121.417C56.4473 114.944 40.4965 88.3576 47.0063 62.0304C53.5161 35.7033 80.0191 19.6141 106.198 26.0873C132.378 32.5605 148.328 59.1471 141.819 85.4743C135.309 111.801 108.806 127.891 82.6265 121.417Z" stroke="white" />
+															<path d="M73.9723 126.42C47.9385 119.983 32.1005 93.4265 38.6109 67.0969C45.1213 40.7672 71.5104 24.6525 97.5442 31.0897C123.578 37.527 139.416 64.0831 132.906 90.4127C126.395 116.742 100.006 132.857 73.9723 126.42Z" stroke="white" />
+															<path d="M65.3189 131.422C39.1396 124.949 23.1888 98.3625 29.6986 72.0353C36.2084 45.7082 62.7115 29.6189 88.8908 36.0922C115.07 42.5654 131.021 69.152 124.511 95.4792C118.001 121.806 91.4981 137.896 65.3189 131.422Z" stroke="white" />
+															<path d="M56.6647 136.425C30.6309 129.987 14.7929 103.431 21.3033 77.1017C27.8137 50.7721 54.2027 34.6573 80.2365 41.0946C106.27 47.5318 122.108 74.0879 115.598 100.418C109.088 126.747 82.6985 142.862 56.6647 136.425Z" stroke="white" />
+															<circle cx="59.7333" cy="94.0209" r="48.8339" transform="rotate(103.889 59.7333 94.0209)" stroke="white" />
+														</g>
+													</svg>
+												</div>
+												<div class="card-body">
+													<div class="chart-num mb-3">
+														<h2>75</h2>
+													</div>
+													<div class="title">
+														<svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<rect x="0.425781" width="8" height="8" fill="#FCFCFC" />
+														</svg>
+														<h4>Total ATM</h4>
+													</div>
+												</div>
 											</div>
-											<div class="title">
-												<svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<rect x="0.425781" width="8" height="8" fill="#FCFCFC" />
-												</svg>
-												<h4>Total ATM</h4>
+										</div>
+										<div class="swiper-slide">
+											<div class="card ticket secondary">
+												<div class="back-image">
+													<svg width="102" height="100" viewBox="0 0 102 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g opacity="0.3">
+															<path d="M89.3573 123.082C59.4605 115.689 41.2417 85.3438 48.6706 55.2997C56.0995 25.2556 86.3609 6.89766 116.258 14.2901C146.155 21.6826 164.373 52.028 156.944 82.0721C149.516 112.116 119.254 130.474 89.3573 123.082Z" stroke="white" />
+															<path d="M91.021 116.351C64.8418 109.878 48.891 83.2911 55.4008 56.964C61.9106 30.6368 88.4137 14.5476 114.593 21.0208C140.772 27.4941 156.723 54.0807 150.213 80.4078C143.703 106.735 117.2 122.824 91.021 116.351Z" stroke="white" />
+															<path d="M82.6265 121.417C56.4473 114.944 40.4965 88.3576 47.0063 62.0304C53.5161 35.7033 80.0191 19.6141 106.198 26.0873C132.378 32.5605 148.328 59.1471 141.819 85.4743C135.309 111.801 108.806 127.891 82.6265 121.417Z" stroke="white" />
+															<path d="M73.9723 126.42C47.9385 119.983 32.1005 93.4265 38.6109 67.0969C45.1213 40.7672 71.5104 24.6525 97.5442 31.0897C123.578 37.527 139.416 64.0831 132.906 90.4127C126.395 116.742 100.006 132.857 73.9723 126.42Z" stroke="white" />
+															<path d="M65.3189 131.422C39.1396 124.949 23.1888 98.3625 29.6986 72.0353C36.2084 45.7082 62.7115 29.6189 88.8908 36.0922C115.07 42.5654 131.021 69.152 124.511 95.4792C118.001 121.806 91.4981 137.896 65.3189 131.422Z" stroke="white" />
+															<path d="M56.6647 136.425C30.6309 129.987 14.7929 103.431 21.3033 77.1017C27.8137 50.7721 54.2027 34.6573 80.2365 41.0946C106.27 47.5318 122.108 74.0879 115.598 100.418C109.088 126.747 82.6985 142.862 56.6647 136.425Z" stroke="white" />
+															<circle cx="59.7333" cy="94.0209" r="48.8339" transform="rotate(103.889 59.7333 94.0209)" stroke="white" />
+														</g>
+													</svg>
+												</div>
+												<div class="card-body">
+													<div class="chart-num mb-3">
+														<h2>75</h2>
+													</div>
+													<div class="title">
+														<svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<rect x="0.425781" width="8" height="8" fill="#FCFCFC" />
+														</svg>
+														<h4>Connected</h4>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="card ticket pink">
+												<div class="back-image">
+													<svg width="102" height="100" viewBox="0 0 102 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<g opacity="0.3">
+															<path d="M89.3573 123.082C59.4605 115.689 41.2417 85.3438 48.6706 55.2997C56.0995 25.2556 86.3609 6.89766 116.258 14.2901C146.155 21.6826 164.373 52.028 156.944 82.0721C149.516 112.116 119.254 130.474 89.3573 123.082Z" stroke="white" />
+															<path d="M91.021 116.351C64.8418 109.878 48.891 83.2911 55.4008 56.964C61.9106 30.6368 88.4137 14.5476 114.593 21.0208C140.772 27.4941 156.723 54.0807 150.213 80.4078C143.703 106.735 117.2 122.824 91.021 116.351Z" stroke="white" />
+															<path d="M82.6265 121.417C56.4473 114.944 40.4965 88.3576 47.0063 62.0304C53.5161 35.7033 80.0191 19.6141 106.198 26.0873C132.378 32.5605 148.328 59.1471 141.819 85.4743C135.309 111.801 108.806 127.891 82.6265 121.417Z" stroke="white" />
+															<path d="M73.9723 126.42C47.9385 119.983 32.1005 93.4265 38.6109 67.0969C45.1213 40.7672 71.5104 24.6525 97.5442 31.0897C123.578 37.527 139.416 64.0831 132.906 90.4127C126.395 116.742 100.006 132.857 73.9723 126.42Z" stroke="white" />
+															<path d="M65.3189 131.422C39.1396 124.949 23.1888 98.3625 29.6986 72.0353C36.2084 45.7082 62.7115 29.6189 88.8908 36.0922C115.07 42.5654 131.021 69.152 124.511 95.4792C118.001 121.806 91.4981 137.896 65.3189 131.422Z" stroke="white" />
+															<path d="M56.6647 136.425C30.6309 129.987 14.7929 103.431 21.3033 77.1017C27.8137 50.7721 54.2027 34.6573 80.2365 41.0946C106.27 47.5318 122.108 74.0879 115.598 100.418C109.088 126.747 82.6985 142.862 56.6647 136.425Z" stroke="white" />
+															<circle cx="59.7333" cy="94.0209" r="48.8339" transform="rotate(103.889 59.7333 94.0209)" stroke="white" />
+														</g>
+													</svg>
+												</div>
+												<div class="card-body">
+													<div class="chart-num mb-3">
+														<h2>75</h2>
+													</div>
+													<div class="title">
+														<svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<rect x="0.425781" width="8" height="8" fill="#FCFCFC" />
+														</svg>
+														<h4>Disconnected</h4>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="swiper-slide">
-									<div class="card ticket secondary">
-										<div class="back-image">
-											<svg width="102" height="100" viewBox="0 0 102 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g opacity="0.3">
-													<path d="M89.3573 123.082C59.4605 115.689 41.2417 85.3438 48.6706 55.2997C56.0995 25.2556 86.3609 6.89766 116.258 14.2901C146.155 21.6826 164.373 52.028 156.944 82.0721C149.516 112.116 119.254 130.474 89.3573 123.082Z" stroke="white" />
-													<path d="M91.021 116.351C64.8418 109.878 48.891 83.2911 55.4008 56.964C61.9106 30.6368 88.4137 14.5476 114.593 21.0208C140.772 27.4941 156.723 54.0807 150.213 80.4078C143.703 106.735 117.2 122.824 91.021 116.351Z" stroke="white" />
-													<path d="M82.6265 121.417C56.4473 114.944 40.4965 88.3576 47.0063 62.0304C53.5161 35.7033 80.0191 19.6141 106.198 26.0873C132.378 32.5605 148.328 59.1471 141.819 85.4743C135.309 111.801 108.806 127.891 82.6265 121.417Z" stroke="white" />
-													<path d="M73.9723 126.42C47.9385 119.983 32.1005 93.4265 38.6109 67.0969C45.1213 40.7672 71.5104 24.6525 97.5442 31.0897C123.578 37.527 139.416 64.0831 132.906 90.4127C126.395 116.742 100.006 132.857 73.9723 126.42Z" stroke="white" />
-													<path d="M65.3189 131.422C39.1396 124.949 23.1888 98.3625 29.6986 72.0353C36.2084 45.7082 62.7115 29.6189 88.8908 36.0922C115.07 42.5654 131.021 69.152 124.511 95.4792C118.001 121.806 91.4981 137.896 65.3189 131.422Z" stroke="white" />
-													<path d="M56.6647 136.425C30.6309 129.987 14.7929 103.431 21.3033 77.1017C27.8137 50.7721 54.2027 34.6573 80.2365 41.0946C106.27 47.5318 122.108 74.0879 115.598 100.418C109.088 126.747 82.6985 142.862 56.6647 136.425Z" stroke="white" />
-													<circle cx="59.7333" cy="94.0209" r="48.8339" transform="rotate(103.889 59.7333 94.0209)" stroke="white" />
-												</g>
-											</svg>
-										</div>
-										<div class="card-body">
-											<div class="chart-num mb-3">
-												<h2>75</h2>
-											</div>
-											<div class="title">
-												<svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<rect x="0.425781" width="8" height="8" fill="#FCFCFC" />
-												</svg>
-												<h4>Connected</h4>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="swiper-slide">
-									<div class="card ticket pink">
-										<div class="back-image">
-											<svg width="102" height="100" viewBox="0 0 102 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g opacity="0.3">
-													<path d="M89.3573 123.082C59.4605 115.689 41.2417 85.3438 48.6706 55.2997C56.0995 25.2556 86.3609 6.89766 116.258 14.2901C146.155 21.6826 164.373 52.028 156.944 82.0721C149.516 112.116 119.254 130.474 89.3573 123.082Z" stroke="white" />
-													<path d="M91.021 116.351C64.8418 109.878 48.891 83.2911 55.4008 56.964C61.9106 30.6368 88.4137 14.5476 114.593 21.0208C140.772 27.4941 156.723 54.0807 150.213 80.4078C143.703 106.735 117.2 122.824 91.021 116.351Z" stroke="white" />
-													<path d="M82.6265 121.417C56.4473 114.944 40.4965 88.3576 47.0063 62.0304C53.5161 35.7033 80.0191 19.6141 106.198 26.0873C132.378 32.5605 148.328 59.1471 141.819 85.4743C135.309 111.801 108.806 127.891 82.6265 121.417Z" stroke="white" />
-													<path d="M73.9723 126.42C47.9385 119.983 32.1005 93.4265 38.6109 67.0969C45.1213 40.7672 71.5104 24.6525 97.5442 31.0897C123.578 37.527 139.416 64.0831 132.906 90.4127C126.395 116.742 100.006 132.857 73.9723 126.42Z" stroke="white" />
-													<path d="M65.3189 131.422C39.1396 124.949 23.1888 98.3625 29.6986 72.0353C36.2084 45.7082 62.7115 29.6189 88.8908 36.0922C115.07 42.5654 131.021 69.152 124.511 95.4792C118.001 121.806 91.4981 137.896 65.3189 131.422Z" stroke="white" />
-													<path d="M56.6647 136.425C30.6309 129.987 14.7929 103.431 21.3033 77.1017C27.8137 50.7721 54.2027 34.6573 80.2365 41.0946C106.27 47.5318 122.108 74.0879 115.598 100.418C109.088 126.747 82.6985 142.862 56.6647 136.425Z" stroke="white" />
-													<circle cx="59.7333" cy="94.0209" r="48.8339" transform="rotate(103.889 59.7333 94.0209)" stroke="white" />
-												</g>
-											</svg>
-										</div>
-										<div class="card-body">
-											<div class="chart-num mb-3">
-												<h2>75</h2>
-											</div>
-											<div class="title">
-												<svg width="9" height="8" viewBox="0 0 9 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<rect x="0.425781" width="8" height="8" fill="#FCFCFC" />
-												</svg>
-												<h4>Disconnected</h4>
-											</div>
-										</div>
-									</div>
-								</div>
+								<!-- /row-->
 							</div>
-						</div>
-						<div class="row">
+							<!--/column-->
 							<div class="col-xl-8 wow fadeInUp" data-wow-delay="1.5s">
 								<div class="card crypto-chart ">
 									<div class="card-header pb-0 border-0 flex-wrap">
@@ -233,12 +247,11 @@
 									</div>
 								</div>
 							</div>
-
 							<!--column-->
-							<div class="col-xl-4 wow fadeInUp" data-wow-delay="1s">
+							<div class="col-xxl-4 col-xl-3">
 								<div class="card">
 									<div class="card-header border-0">
-										<h2 class="heading">Email </h2>
+										<h2 class="heading">Email</h2>
 										<div class="dropdown custom-dropdown">
 											<div class="btn sharp btn-primary tp-btn " data-bs-toggle="dropdown">
 												<svg width="6" height="20" viewBox="0 0 6 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -318,109 +331,15 @@
 							<!--/column-->
 
 							<!--column-->
-							<div class="col-lg-12 wow fadeInUp" data-wow-delay="1.5s">
-								<!--card-->
-								<div class="card statistic">
-									<div class="row">
-										<div class="col-xl-9">
-											<div class="card-header border-0 flex-wrap pb-2">
-												<div class="chart-title mb-2 ">
-													<h2 class="heading text-white">Statistic</h2>
-												</div>
-											</div>
-											<div class="card-body pt-0 custome-tooltip pe-0">
-												<div id="chartBarRunning"></div>
-											</div>
-										</div>
-										<div class="col-xl-3">
-											<div class="statistic-content">
-												<div class="d-flex justify-content-between">
-													<select class="image-select default-select dashboard-select primary-light" aria-label="Default">
-														<option selected>This Month</option>
-														<option value="1">This Weeks</option>
-														<option value="2">This Day</option>
-													</select>
-													<div class="dropdown custom-dropdown">
-														<div class="btn sharp primary-light" data-bs-toggle="dropdown">
-															<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1">
-																<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																	<rect x="0" y="0" width="24" height="24"></rect>
-																	<circle fill="#000000" cx="12" cy="5" r="2"></circle>
-																	<circle fill="#000000" cx="12" cy="12" r="2"></circle>
-																	<circle fill="#000000" cx="12" cy="19" r="2"></circle>
-																</g>
-															</svg>
-														</div>
-														<div class="dropdown-menu dropdown-menu-end">
-															<a class="dropdown-item" href="javascript:void(0);">Option 1</a>
-															<a class="dropdown-item" href="javascript:void(0);">Option 2</a>
-															<a class="dropdown-item" href="javascript:void(0);">Option 3</a>
-														</div>
-													</div>
-												</div>
-												<div class="statistic-toggle my-3">
-													<div class="toggle-btn" id="dzExpenseSeries">
-														<div>
-															<input type="checkbox" id="checkbox3" name="toggle-btn" value="Income">
-															<label for="checkbox3" class="check"></label>
-														</div>
-														<div>
-															<span class="fs-14">Income</span>
-															<h4 class="fs-15 font-w600 mb-0">1.982</h4>
-														</div>
-													</div>
-													<div class="toggle-btn expense" id="dzIncomeSeries">
-														<div>
-															<input type="checkbox" id="checkbox2" name="toggle-btn" value="Expense">
-															<label for="checkbox2" class="check"></label>
-														</div>
-														<div>
-															<span class="fs-14">Expense</span>
-															<h4 class="fs-15 font-w600 mb-0">1.982</h4>
-														</div>
-													</div>
-												</div>
-												<!--card-->
-												<div class="card expense mb-3">
-													<div class="card-body p-3">
-														<div class="students1 d-flex align-items-center justify-content-between ">
-															<div class="content">
-																<span>Income</span>
-																<h2>$ 12,890,00</h2>
-																<h5 class="up">
-																	<svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M23.25 11.5C23.25 5.275 18.225 0.25 12 0.25C5.775 0.249999 0.75 5.275 0.75 11.5C0.749999 17.725 5.775 22.75 12 22.75C18.225 22.75 23.25 17.725 23.25 11.5ZM11.25 16.075L11.25 9.175L9.3 10.9C8.85 11.275 8.25 11.2 7.875 10.825C7.725 10.6 7.65 10.375 7.65 10.15C7.65 9.85 7.8 9.55 8.025 9.4L11.625 6.25C11.7 6.175 11.775 6.175 11.85 6.1C11.925 6.1 11.925 6.1 12 6.025C12.075 6.025 12.075 6.025 12.15 6.025L12.225 6.025C12.3 6.025 12.3 6.025 12.375 6.025L12.45 6.025C12.525 6.025 12.525 6.025 12.6 6.1C12.6 6.1 12.675 6.1 12.675 6.175L12.75 6.25C12.75 6.25 12.75 6.25 12.825 6.325L15.975 9.55C16.35 9.925 16.35 10.6 15.975 10.975C15.6 11.35 14.925 11.35 14.55 10.975L13.125 9.475L13.125 16.15C13.125 16.675 12.675 17.2 12.075 17.2C11.7 17.05 11.25 16.6 11.25 16.075Z" fill="#FFD125" />
-																	</svg>
-																	+15%
-																</h5>
-															</div>
-														</div>
-													</div>
-												</div>
-												<!--/card-->
-												<!--card-->
-												<div class="card expense mb-3 ">
-													<div class="card-body p-3 ">
-														<div class="students1 d-flex align-items-center justify-content-between ">
-															<div class="content">
-																<span>Expense</span>
-																<h2>$12,890,00</h2>
-																<h5>
-																	<svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M0.75 11.5C0.75 17.725 5.775 22.75 12 22.75C18.225 22.75 23.25 17.725 23.25 11.5C23.25 5.275 18.225 0.25 12 0.25C5.775 0.25 0.75 5.275 0.75 11.5ZM12.75 6.925L12.75 13.825L14.7 12.1C15.15 11.725 15.75 11.8 16.125 12.175C16.275 12.4 16.35 12.625 16.35 12.85C16.35 13.15 16.2 13.45 15.975 13.6L12.375 16.75C12.3 16.825 12.225 16.825 12.15 16.9C12.075 16.9 12.075 16.9 12 16.975C11.925 16.975 11.925 16.975 11.85 16.975L11.775 16.975C11.7 16.975 11.7 16.975 11.625 16.975L11.55 16.975C11.475 16.975 11.475 16.975 11.4 16.9C11.4 16.9 11.325 16.9 11.325 16.825L11.25 16.75C11.25 16.75 11.25 16.75 11.175 16.675L8.025 13.45C7.65 13.075 7.65 12.4 8.025 12.025C8.4 11.65 9.075 11.65 9.45 12.025L10.875 13.525L10.875 6.85C10.875 6.325 11.325 5.8 11.925 5.8C12.3 5.95 12.75 6.4 12.75 6.925Z" fill="#FCFCFC" />
-																	</svg>
-																	+15%
-																</h5>
-															</div>
-														</div>
-													</div>
-												</div>
-												<!--/card-->
-											</div>
-										</div>
+							<div class="col-lg-6 col-sm-6 wow fadeInUp">
+								<div class="card">
+									<div class="card-header">
+										<h4 class="card-title">Bar Chart</h4>
+									</div>
+									<div class="card-body">
+										<div id="flotBar1" class="flot-chart"></div>
 									</div>
 								</div>
-								<!--/card-->
 							</div>
 							<!--/column-->
 						</div>
@@ -428,12 +347,10 @@
 				</div>
 			</div>
 		</div>
+		<!--**********************************
+            Content body end
+        ***********************************-->
 	</div>
-	<!--**********************************
-    	Content body end
-    ***********************************-->
-	</div>
-
 	<!--**********************************
         Main wrapper end
     ***********************************-->
@@ -443,43 +360,62 @@
     ***********************************-->
 	<!-- Required vendors -->
 	<script src="vendor/global/global.min.js"></script>
-	<script src="vendor/chart.js/Chart.bundle.min.js"></script>
 	<script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+
 	<!-- Apex Chart -->
 	<script src="vendor/apexchart/apexchart.js"></script>
+
 	<!-- Chart piety plugin files -->
 	<script src="vendor/peity/jquery.peity.min.js"></script>
 	<script src="vendor/jquery-nice-select/js/jquery.nice-select.min.js"></script>
-	<!--swiper-slider-->
 	<script src="vendor/swiper/js/swiper-bundle.min.js"></script>
+	<script src="vendor/flot/jquery.flot.js"></script>
+	<script src="vendor/flot/jquery.flot.pie.js"></script>
+	<script src="vendor/flot/jquery.flot.resize.js"></script>
+	<script src="vendor/flot-spline/jquery.flot.spline.min.js"></script>
+	<script src="js/plugins-init/flot-init.js"></script>
+
 	<!-- Dashboard 1 -->
-	<script src="js/dashboard/dashboard-1.js"></script>
 	<script src="vendor/wow-master/dist/wow.min.js"></script>
-	<script src="vendor/bootstrap-datetimepicker/js/moment.js"></script>
-	<script src="vendor/datepicker/js/bootstrap-datepicker.min.js"></script>
-	<script src="vendor/bootstrap-select-country/js/bootstrap-select-country.min.js"></script>
-
-	<script src="js/dlabnav-init.js"></script>
 	<script src="js/custom.min.js"></script>
+	<script src="js/dlabnav-init.js"></script>
 	<script src="js/demo.js"></script>
-	<script src="js/styleSwitcher.js"></script>
+	<script src="js/dashboard/dashboard-1.js"></script>
+
 	<script>
-		$(function() {
-			$("#datepicker").datepicker({
-				autoclose: true,
-				todayHighlight: true
-			}).datepicker('update', new Date());
+		var swiper = new Swiper('.ticketing-Swiper', {
+			speed: 1500,
+			slidesPerView: 4,
+			spaceBetween: 40,
+			parallax: true,
+			loop: false,
+			breakpoints: {
 
+				300: {
+					slidesPerView: 1,
+					spaceBetween: 30,
+				},
+				576: {
+					slidesPerView: 2,
+					spaceBetween: 30,
+				},
+				991: {
+					slidesPerView: 3,
+					spaceBetween: 30,
+				},
+				1200: {
+					slidesPerView: 3,
+					spaceBetween: 30,
+				},
+				1600: {
+					slidesPerView: 4,
+					spaceBetween: 30,
+				},
+			},
 		});
-
-		$(document).ready(function() {
-			$(".booking-calender .fa.fa-clock-o").removeClass(this);
-			$(".booking-calender .fa.fa-clock-o").addClass('fa-clock');
-		});
-		$('.my-select').selectpicker();
 	</script>
 </body>
 
-<!-- Mirrored from finlab.dexignzone.com/xhtml/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 May 2023 06:38:15 GMT -->
+<!-- Mirrored from finlab.dexignzone.com/xhtml/ticketing.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 May 2023 06:38:35 GMT -->
 
 </html>
