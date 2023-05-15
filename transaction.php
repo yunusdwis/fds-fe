@@ -233,8 +233,6 @@
     <script src="vendor/pickadate/picker.time.js"></script>
     <script src="vendor/pickadate/picker.date.js"></script>
 
-
-
     <!-- Daterangepicker -->
     <script src="js/plugins-init/bs-daterange-picker-init.js"></script>
     <!-- Clockpicker init -->

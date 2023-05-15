@@ -293,7 +293,6 @@
 											<tr>
 												<th>No</th>
 												<th>Field Name</th>
-												<th></th>
 											</tr>
 										</thead>
 										<tbody>
@@ -328,40 +327,14 @@
     ***********************************-->
 	<!-- Required vendors -->
 	<script src="vendor/global/global.min.js"></script>
-	<script src="vendor/chart.js/Chart.bundle.min.js"></script>
 	<script src="vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
-	<!-- Apex Chart -->
-	<script src="vendor/apexchart/apexchart.js"></script>
-	<!-- Chart piety plugin files -->
-	<script src="vendor/peity/jquery.peity.min.js"></script>
-	<script src="vendor/jquery-nice-select/js/jquery.nice-select.min.js"></script>
-	<!--swiper-slider-->
-	<script src="vendor/swiper/js/swiper-bundle.min.js"></script>
+
 	<!-- Dashboard 1 -->
 	<script src="js/dashboard/dashboard-1.js"></script>
-	<script src="vendor/wow-master/dist/wow.min.js"></script>
-	<script src="vendor/bootstrap-datetimepicker/js/moment.js"></script>
-	<script src="vendor/datepicker/js/bootstrap-datepicker.min.js"></script>
-	<script src="vendor/bootstrap-select-country/js/bootstrap-select-country.min.js"></script>
-
 	<script src="js/dlabnav-init.js"></script>
 	<script src="js/custom.min.js"></script>
 	<script src="js/demo.js"></script>
-	<script>
-		$(function() {
-			$("#datepicker").datepicker({
-				autoclose: true,
-				todayHighlight: true
-			}).datepicker('update', new Date());
 
-		});
-
-		$(document).ready(function() {
-			$(".booking-calender .fa.fa-clock-o").removeClass(this);
-			$(".booking-calender .fa.fa-clock-o").addClass('fa-clock');
-		});
-		$('.my-select').selectpicker();
-	</script>
 </body>
 
 <!-- Mirrored from finlab.dexignzone.com/xhtml/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 May 2023 06:38:15 GMT -->

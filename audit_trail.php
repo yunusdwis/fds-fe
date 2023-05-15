@@ -85,39 +85,46 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-6">
-                                            <label class="text-label form-label">Start Date</label>
-                                            <input name="datepicker" class="datepicker-default form-control" id="datepicker" style="cursor: pointer;" placeholder="23-05-2023">
+                                        <label class="text-label form-label">Start Date</label>
+                                        <input name="datepicker" class="datepicker-default form-control" id="datepicker" style="cursor: pointer;" placeholder="23-05-2023">
                                     </div>
 
                                     <div class="col-md-6">
                                         <div class="mb-3">
-                                                <label class="form-label">Activity</label>
-                                                <select class="default-select form-control wide">
-                                                    <option selected>All</option>
-                                                    <option>Login</option>
-                                                    <option>Logout</option>
-                                                    <option>Create Rule</option>
-                                                    <option>Delete Rule</option>
-                                                    <option>Acknowledge Fraud Transaction</option>
-                                                    <option>Print Report</option>
-                                                </select> 
+                                            <label class="form-label">Activity</label>
+                                            <select class="default-select form-control wide">
+                                                <option selected>All</option>
+                                                <option>Login</option>
+                                                <option>Logout</option>
+                                                <option>Create Rule</option>
+                                                <option>Delete Rule</option>
+                                                <option>Acknowledge Fraud Transaction</option>
+                                                <option>Print Report</option>
+                                            </select>
                                         </div>
                                     </div>
 
-                                        <div class="col-md-6">
-                                            <div class="mb-3">
-                                                <label class="text-label form-label">End Date</label>
-                                                <input name="datepicker" class="datepicker-default form-control" id="datepicker" style="cursor: pointer;" placeholder="23-05-2023">
-                                            </div>
+                                    <div class="col-md-6">
+                                        <div class="mb-3">
+                                            <label class="text-label form-label">End Date</label>
+                                            <input name="datepicker" class="datepicker-default form-control" id="datepicker" style="cursor: pointer;" placeholder="23-05-2023">
                                         </div>
-                                    
+                                    </div>
+
 
                                     <div class="col-md-6">
                                         <label class="text-label form-label">User Name</label>
                                         <input type="number" class="number-default form-control" min="" max="" id="number" style="cursor: pointer;" placeholder="0">
                                     </div>
                                 </div>
-
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-xxl-12">
+                        <div class="card">
+                            <div class="card-body">
                                 <div class="table-responsive">
                                     <table class="table table-responsive-md">
                                         <thead>
@@ -152,9 +159,6 @@
                                 </div>
                             </div>
                         </div>
-
-
-
                     </div>
                 </div>
             </div>
